@@ -1,0 +1,10 @@
+Creer un fichier de configuaration tailwind
+
+  npx tailwindcss init [--full]
+    creer un fichier de configuration tailwind 
+    --full met dans ce fichier toute les configuaration par defaut de tailwind
+      (utile pour servire de reference a nos extensions)
+
+  une fois le fichier creer un apporte nos modification dans l'objet extends
+    en respactant le meme typo que le fichier de configuration par defaut 
+  il est necessaire de re lancer le script de construction tailwind
