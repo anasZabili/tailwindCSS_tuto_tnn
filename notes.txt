@@ -8,3 +8,15 @@ Creer un fichier de configuaration tailwind
   une fois le fichier creer un apporte nos modification dans l'objet extends
     en respactant le meme typo que le fichier de configuration par defaut 
   il est necessaire de re lancer le script de construction tailwind
+
+
+Ajouter une custom Font
+  1. choisir une font sur google font
+  2. copier le @import(...) au sommet de src/styles.css
+  3.modifier le fichier de configuaration (fontFamilly) et hop c fini on peut utiliser
+    "font-xxx"
+    fontFamily: {
+        body: ["Nunito"],
+      },
+
+
